@@ -1,25 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
     <head>
-        <title>HTML HOME</title>
-
+        <title>CSS assignment 2: ABOUT ME</title>
+        <link rel="stylesheet" href="style.css">
     </head>
+
 <body>
-  
-    <header>
-        <h1></h1>
-    
-    </header>
 
-<nav>
-    <ul>
-        <li><a href="media.html">MEDIA</a></li>
-        <li><a href="tags.html">TAGS</a></li>
-        <li><a href="nested.html">NESTED</a></li>
-
-    </ul>
-</nav>
-<!--
+    <!--
 <h1 class="special">this is a heading</h1>
 <h2 class="special special2">this is my second heading</h2>
 
@@ -32,7 +22,7 @@
 </section>
 -->
 
-<!--
+    <!--
     <h3>What do I need to start kayaking? How do I paddle? Where's the best birdwatching?</h3>
     <p><b>By Beth Skwarecki</b> | 8/13/21 3:00PM |Comments (5) | Alerts</p>
 <br>
@@ -122,7 +112,7 @@
     closer, only to see it dive down and slap the water with its tail. A beaver!</p>
 -->
 
-<!--
+    <!--
     <h1>HELLO WORLD!!</h1>
 
 <h2>second level headline</h2>
@@ -168,51 +158,73 @@
 
 END OF PREVIOUS CONTENT-->
 
-<!--ASSIGNMENT 1
-    <html lang="en">
-    <head>
-        <title>assignment 1: ABOUT ME</title>
-    </head>
-<body>
+    <!--ASSIGNMENT 1-->
     
-    <h1>LAUREN BINNEY</h1>
-    <h2>| <em>integrated media</em> | <em>strategic communication</em> | <em>graphic design</em> | <em>photography</em> |</h2>
 
-    <h5><i><q>The best world shakers were the ones who understood the true power of words. They were the ones who could climb the highest.</q></i>-Markus Zusak</h5>
-<br> here is where i will tell a little about myself, along with some pictures
+    <div id="container">
+        <h1>LAUREN BINNEY</h1>
+        <h2>| <em>integrated media</em> | <em>strategic communication</em> | <em>graphic design</em> | <em>photography</em> |</h2>
 
-<img src="titlepicture.JPG" alt="picture of lauren looking to the left" width="750" height="525">
+        <div id="animation">
+            <h5><i><q>The best world shakers were the ones who understood the true power of words. They were the ones who could climb the highest.</q></i>-Markus Zusak</h5>
+        </div>
+        
+        <br>
+        <!-- here is where i will tell a little about myself, along with some pictures-->
 
-<p><b>Hi! I'm Lauren!</b> I am a student at Boise State University studying integrated media + strategic communication. 
-I am also earning a certificate in digital media from Boise State and a graphic design certification from the New York Institute of Art + Design.<br>
-<p></p>    
-I am a dedicated student with a passion for <abbr title="public relations">PR</abbr>, digital media, + design. I believe in the power of visual 
-communication to make information accessible + understandable. I desire to work efficiently + creatively, always looking to improve in every aspect of my work.<br>
-    
-On any given day, you might find me:
-<ul>
-<li>hanging out in a coffee shop</li>
-<li>reading a good book</li> OR
-<li> going on a long walk with friends.</li>
-</ul>
+    </div>
 
-<br>The world has such beautiful things to offer, and I love incorporating that in my work, be it in relating to the people around me, capturing it in photos, 
-or accentuating people's passion in my designs.</p>
- 
-here are some of my favorite people and things
-<h4>MY FAVORITE THINGS + PEOPLE</h4>
-<img src="balloonwmom.jpg" alt="picture with my mom" width="250" height="350"><img src="zickefoose.jpg" alt="picture with my boyfriend" width="275" height="350">
- <img src="coffee.JPG" alt="picture of latte art" width="275" height="350"> <img src="sawtooth.jpg" alt="picture with my roommates" width="350" height="275"> 
+    <div class="titlepic">
+        <img src="titlepicture.JPG" alt="picture of lauren looking to the left" width="750" height="525">
+    </div>
 
-this is how you can contact me
-<h4>CONTACT ME</h4>
-<address>(123) 456-7890<br>laurenbinney@u.boisestate.edu<br><a href="https://laurenkbinney.wixsite.com/portfolio">view my portfolio</a></address>
-<footer>
-    <p>©lauren binney. all rights reserved.</p>
+    <p><b>Hi! I'm Lauren!</b> I am a student at Boise State University studying integrated media + strategic communication. 
+    I am also earning a certificate in digital media from Boise State and a graphic design certification from the New York Institute of Art + Design.<br>
+    <p></p>    
+    I am a dedicated student with a passion for <abbr title="public relations">PR</abbr>, digital media, + design. I believe in the power of visual 
+    communication to make information accessible + understandable. I desire to work efficiently + creatively, always looking to improve in every aspect of my work.<br>
+        
+    On any given day, you might find me:
 
-</footer>
+    <ul class="list">
+        <li id="coffee">hanging out in a coffee shop</li>
+        <li id="reading">reading a good book</li> 
+        <li id="walking"> going on a long walk with friends.</li>
+    </ul>
 
--->
+    <br>The world has such beautiful things to offer, and I love incorporating that in my work, be it in relating to the people around me, capturing it in photos, 
+    or accentuating people's passion in my designs.</p>
+
+    <div id="container">
+        <!--here are some of my favorite people and things-->
+        <h4>MY FAVORITE THINGS + PEOPLE</h4>
+
+        <div class="pictures">
+        
+            <img src="balloonwmom.jpg" alt="picture with my mom" width="187.5" height="262.5"><img src="zickefoose.jpg" alt="picture with my boyfriend" width="206.25" height="262.5">
+            <img src="coffee.JPG" alt="picture of latte art"  width="206.25" height="262.5"> <img src="nest.jpg" alt="picture with my roommates"  width="206.25" height="262.5"> 
+
+        </div>
+
+        <!--this is how you can contact me-->
+        <h4>CONTACT ME</h4>
+        <address>(123) 456-7890<br>laurenbinney@u.boisestate.edu<br><a href="https://laurenkbinney.wixsite.com/portfolio">view my portfolio</a></address>
+    </div>
+
+    <p></p>
+    <nav>
+
+        <button><a href="media.html">MEDIA</a></button>
+        <button><a href="tags.html">TAGS</a></button>
+        <button><a href="nested.html">NESTED</a></button>
+
+    </nav>
+
+    <footer>
+        <p>©lauren binney. all rights reserved.</p>
+
+    </footer>
+
 
 </body>
 </html>

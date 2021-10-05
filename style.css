@@ -1,34 +1,107 @@
-
-    .special{
-        color: darkolivegreen;
-    }
+button {
+    background-color: lightslategray;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    align-content: center;
     
-    .special2{
-        background: black;
+}
+
+body {
+    background-color: linen;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(82, 94, 107);
+
+}
+
+h2 {
+    color: lightslategray;
+}
+
+h5 {
+    color: linen;
+}
+
+
+#coffee {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+#reading {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+#walking {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+.titlepic {
+    display: inline-block;
+    border-style: double;
+    border-width: 3px;
+    padding: 5px 5px 2px 5px;
+}
+
+.list {
+    border-style: double;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 250px
+}
+
+.pictures {
+    display: inline-block;
+    border-style: double;
+    padding: 15px 20px 15px 20px;
+}
+
+#container h2 {
+    font-size: 24px;
+}
+
+
+#container h5 {
+    background-color: lightslategray;
+}
+
+#container h4 {
+    background-color: rgb(179, 191, 202);
+
+}
+
+#animation {
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+
+    0%{
+        text-align: left;
     }
-
-    a{
-       color: black;
-
-   }
-
-   section a{
-       color: darkolivegreen;
-   }
-
-   .container{
-       color:darkseagreen;
-   }
-
-   p{
-       font-size: 16px!important;
-
-   }
-
-   p{
-       font-size: 32px;
-   }
-
-nav li a{
-    color: maroon;
+    25%{
+        text-align: center;
+    }
+    50%{
+        text-align: right;
+    }
+    75%{
+        text-align: center;
+    }
+    100%{
+        text-align: left;
+    }
 }

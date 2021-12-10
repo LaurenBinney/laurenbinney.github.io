@@ -1,107 +1,360 @@
-button {
-    background-color: lightslategray;
-    color: white;
-    padding: 8px 15px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    align-content: center;
-    
-}
 
 body {
     background-color: linen;
     text-align: center;
 }
 
-h1 {
-    color: rgb(82, 94, 107);
+#plantitle{
+    padding-top: 65px;
+    padding-bottom: 20px;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#navbar a {
+    float: right;
+    display: block;
+    color: linen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:serif;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.titlepic {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-content: left center;
+    background-color: slategray;
 
 }
 
-h2 {
-    color: lightslategray;
+.media-kit {
+    background-color: slategrey;
+    color: white;
 }
 
-h5 {
+.downeast-list {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.downeast-list li {
+    display: inline-block;
+    width: 425px;
+    margin: 0 12px 30px;
+}
+
+.downeast-list li a{
+    display: block;   
+}
+
+.downeast-list li img{
+    width: 100%;
+    height: auto;
+}
+
+.downeast-list li > a:hover{
+    transform: scale(1.05);
+    transition: .25s;
+}
+
+
+
+.news-release-list {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.news-release-list li {
+    display: inline-block;
+    width: 425px;
+    margin: 0 12px 30px;
+}
+
+.news-release-list li a{
+    display: block;   
+}
+
+.news-release-list li img{
+    width: 100%;
+    height: auto;
+
+}
+
+.news-release-list li > a:hover{
+    transform: scale(1.05);
+    transition: .25s;
+}
+
+.news-release-list h5 {
+    padding-bottom: 50px;
+}
+
+
+
+.fact-sheet-list {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.fact-sheet-list li {
+    display: inline-block;
+    width: 425px;
+    margin: 0 12px 30px;
+}
+
+.fact-sheet-list li a{
+    display: block;   
+}
+
+.fact-sheet-list li img{
+    width: 100%;
+    height: auto;
+
+}
+
+.fact-sheet-list li > a:hover{
+    transform: scale(1.05);
+    transition: .25s;
+}
+
+.fact-sheet-list h5 {
+    padding-bottom: 50px;
+}
+
+
+.bio-list {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.bio-list li {
+    display: inline-block;
+    width: 425px;
+    margin: 0 12px 30px;
+}
+
+.bio-list li a{
+    display: block;   
+}
+
+.bio-list li img{
+    width: 100%;
+    height: auto;
+
+}
+
+.bio-list li > a:hover{
+    transform: scale(1.05);
+    transition: .25s;
+}
+
+.bio-list h5 {
+padding-bottom: 250px;
+
+}
+
+
+
+.post1 {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.post1 li {
+    display: inline-block;
+    width: 318.75px;
+    margin: 0 12px 30px;
+    background-color: slategrey;
+}
+
+.post1 li a{
+    display: block;
+    height: 220px;   
+}
+
+.post1 li img{
+    width: 100%;
+    height: auto;
+
+}
+
+.post1 li > a:hover{
+    transform: scale(1.05);
+    transition: .25s;
+}
+
+.post1{
+    padding-bottom: 50px;
+    color: white;
+}
+
+
+
+.post2 {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.post2 li {
+    display: inline-block;
+    width: 318.75px;
+    margin: 0 12px 30px;
+    background-color: slategrey;
+}
+
+.post2 li a{
+    display: block;
+    height: 220px;   
+}
+
+.post2 li img{
+    width: 100%;
+    height: auto;
+
+}
+
+.post2 li > a:hover{
+    transform: scale(1.05);
+    transition: .25s;
+}
+
+.post2{
+    padding-bottom: 50px;
+    color: white;
+}
+
+
+.post3 {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.post3 li {
+    display: inline-block;
+    width: 318.75px;
+    margin: 0 12px 30px;
+    background-color: slategrey;
+}
+
+.post3 li a{
+    display: block;
+    height: 220px;   
+}
+
+.post3 li img{
+    width: 100%;
+    height: auto;
+
+}
+
+.post3 li > a:hover{
+    transform: scale(1.05);
+    transition: .25s;
+}
+
+
+.post3{
+    padding-bottom: 250px;
+    color: white;
+}
+
+
+.socials {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.socials li {
+    display: inline-block;
+    width: 30px;
+    margin: 0 3px 7.5px;
+}
+
+.socials li a{
+    display: block;   
+}
+
+.socials li img{
+    width: 100%;
+    height: auto;
     color: linen;
 }
 
-
-#coffee {
-    padding-top: 15px;
-    padding-bottom: 5px;
-    font-size: 16px;
+.socials li > a:hover{
+    transform: scale(1.05);
+    transition: .25s;
 }
 
-#reading {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 16px;
-}
 
-#walking {
-    padding-top: 5px;
-    padding-bottom: 15px;
-    font-size: 16px;
-}
 
-.titlepic {
+button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
     display: inline-block;
-    border-style: double;
-    border-width: 3px;
-    padding: 5px 5px 2px 5px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: serif; 
+    
 }
 
-.list {
-    border-style: double;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    width: 250px
+button:hover {opacity:1}
+   
+
+h1 {
+    padding-top: 45px;
 }
 
-.pictures {
-    display: inline-block;
-    border-style: double;
-    padding: 15px 20px 15px 20px;
-}
-
-#container h2 {
-    font-size: 24px;
-}
-
-
-#container h5 {
-    background-color: lightslategray;
-}
-
-#container h4 {
-    background-color: rgb(179, 191, 202);
+p {
+    color: black;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
 
 }
 
-#animation {
-    animation-name: animation;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
 }
 
-@keyframes animation {
-
-    0%{
-        text-align: left;
-    }
-    25%{
-        text-align: center;
-    }
-    50%{
-        text-align: right;
-    }
-    75%{
-        text-align: center;
-    }
-    100%{
-        text-align: left;
-    }
+footer p {
+    color: linen;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+

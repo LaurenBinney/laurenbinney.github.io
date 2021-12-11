@@ -309,8 +309,6 @@ padding-bottom: 250px;
     transition: .25s;
 }
 
-
-
 button {
     background-color: #333;
     border: none;
@@ -331,7 +329,6 @@ button {
 
 button:hover {opacity:1}
    
-
 h1 {
     padding-top: 45px;
 }
